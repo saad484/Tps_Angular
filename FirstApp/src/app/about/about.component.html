@@ -1,0 +1,11 @@
+<div> Composant About </div>
+
+<div>
+    <button type="button" (click)="decrimenter()" class="buttonR" [disabled]="cmpt==0">
+        -
+    </button>
+    Compteur : {{cmpt}}
+    <button  type="button" (click)="incrimenter()" class="buttonV" [disabled]="cmpt==10">
+        +
+    </button>
+</div>
