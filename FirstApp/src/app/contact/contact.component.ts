@@ -11,3 +11,4 @@ export class ContactComponent {
       this.newItemEvent.emit(value);
     }
 }
+
